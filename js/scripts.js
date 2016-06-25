@@ -8,6 +8,8 @@
         $("ul#numberOutput").append("<li>ping</li>");
       } else if (i % 5 === 0) {
         $("ul#numberOutput").append("<li>pong</li>");
+      } else {
+        $("ul#numberOutput").append("<li>" + i + "</li>");
       }
     }
   }
@@ -17,7 +19,6 @@ $(document).ready(function() {
   $("form#numberForm").submit(function(event) {
     var input = parseInt($("input#userInput").val());
     pingPong(input);
-
 
 
     event.preventDefault();

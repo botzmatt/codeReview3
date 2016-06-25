@@ -36,7 +36,7 @@
             Matt Botz
           </p>
 
-          <h3> GitHub Username: </h3>
+          <h3> GitHub Username/URL: </h3>
           <p>
             <a href="https:github.com/botzmatt">botzmatt</a>
           </p>
@@ -51,8 +51,9 @@
         <ul>
           <li>Numbers divisible by 3 become "ping"</li>
           <li>Numbers divisible by 5 become "pong"</li>
-          <li>Numbers divisible by 3 and 5 become "pingpong"</li>
+          <li>Numbers divisible by both 3 and 5 become "pingpong"</li>
         </ul>
+        <h6> Disclaimer: Inputting too large of a number may crash your browser. </h6>
         <form id="numberForm">
           <div class="form-group">
             <label for="userInput">Enter a number!</label>
@@ -61,9 +62,11 @@
           <button type="submit" class="btn btn-primary">Ping Pong!</button>
         </form>
       </div>
-      <div class="results">
-        <ul id="numberOutput">
-        </ul>
+      <div class="col-md-8">
+        <div class="results">
+          <ul id="numberOutput">
+          </ul>
+        </div>
       </div>
     </div>
 

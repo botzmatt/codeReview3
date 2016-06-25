@@ -6,6 +6,8 @@
         $("ul#numberOutput").append("<li>pingpong</li>");
       } else if (i % 3 === 0) {
         $("ul#numberOutput").append("<li>ping</li>");
+      } else if (i % 5 === 0) {
+        $("ul#numberOutput").append("<li>pong</li>");
       }
     }
   }
@@ -13,11 +15,10 @@
 // User End Logic
 $(document).ready(function() {
   $("form#numberForm").submit(function(event) {
-    var input = parseInt($("input#numberInput").val());
+    var input = parseInt($("input#userInput").val());
     pingPong(input);
 
-    $("ul#numberOutput").hide();
-    $("ul#numberOutput").show();
+
 
     event.preventDefault();
   });

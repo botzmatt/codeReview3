@@ -21,3 +21,15 @@ img {
 body {
   background-color: #ccffe6;
 }
+
+.col-sm-2 {
+  margin-right: 10px;
+  width: 225px;
+}
+
+ul {
+  margin-left: inherit;
+}
+form {
+  margin-left: inherit;
+}

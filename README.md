@@ -6,19 +6,19 @@ This is a page where a user inputs any number and the browser will count up to t
 
 ## Specifications:
 
-### It can count up to the provided number
+#### 1. It can count up to the provided number
   * Example Input: 2
   * Example Output: [1, 2]
 
-### For any number that is divisible by 3, it will output 'ping'
+#### 2. For any number that is divisible by 3, it will output 'ping'
   * Example Input: 3
   * Example Output: [1, 2, ping]
 
-### For any number that is divisible by 5, it will output 'pong'
+#### 3. For any number that is divisible by 5, it will output 'pong'
   * Example Input: 5
   * Example Output: [1, 2, ping, 4, pong]
 
-### For any number that is divisible by 15, it will output 'pingpong'
+#### 4. For any number that is divisible by 15, it will output 'pingpong'
   * Example Input: 15
   * Example Output: [1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, pingpong]
 

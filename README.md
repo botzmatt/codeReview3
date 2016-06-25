@@ -7,20 +7,20 @@ This is a page where a user inputs any number and the browser will count up to t
 ## Specifications:
 
 ### It can count up to the provided number
-..* Example Input: 2
-..* Example Output: [1, 2]
+  * Example Input: 2
+  * Example Output: [1, 2]
 
 ### For any number that is divisible by 3, it will output 'ping'
-..* Example Input: 3
-..* Example Output: [1, 2, ping]
+  * Example Input: 3
+  * Example Output: [1, 2, ping]
 
 ### For any number that is divisible by 5, it will output 'pong'
-..* Example Input: 5
-..* Example Output: [1, 2, ping, 4, pong]
+  * Example Input: 5
+  * Example Output: [1, 2, ping, 4, pong]
 
 ### For any number that is divisible by 15, it will output 'pingpong'
-..* Example Input: 15
-..* Example Output: [1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, pingpong]
+  * Example Input: 15
+  * Example Output: [1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, pingpong]
 
 ## Setup:
 1. Navigate [here]https://botzmatt.github.io/codeReview3 to access the website.

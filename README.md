@@ -23,7 +23,7 @@ This is a page where a user inputs any number and the browser will count up to t
 ..* Example Output: [1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, pingpong]
 
 ## Setup:
-1. Navigate [here]# to access the website.
+1. Navigate [here]https://botzmatt.github.io/codeReview3 to access the website.
 2. Read the rules on the page.
 3. Type a number into the field.
 4. Select the Ping Pong! button.

@@ -13,13 +13,60 @@
 
     <!-- jQuery -->
     <script src="js/jquery-3.0.0.js"></script>
-    <!-- Bootstrap JS (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/bootstrap.min.js"></script>
+
     <!-- Custom JS -->
     <script src="js/scripts.js"></script>
-
   </head>
+
+  <header>
+
+    <div class="container header">
+      <div class="col-sm-12">
+        <img src="img/pingPong.jpg" alt="ping pong text and paddles picture"/>
+      </div>
+    </div>
+  </header>
+
   <body>
+    <div class="container">
+      <div class="col-sm-2">
+        <div class="sideBarColumn">
+          <h3> Created By: </h3>
+          <p>
+            Matt Botz
+          </p>
+
+          <h3> GitHub Username: </h3>
+          <p>
+            <a href="https:github.com/botzmatt">botzmatt</a>
+          </p>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <h2>Let's Play!</h2>
+        <h3>Rules:</h3>
+        <p>
+          Ping Pong will count up to your number by 1s with the following exceptions:
+        </p>
+        <ul>
+          <li>Numbers divisible by 3 become "ping"</li>
+          <li>Numbers divisible by 5 become "pong"</li>
+          <li>Numbers divisible by 3 and 5 become "pingpong"</li>
+        </ul>
+        <form id="numberForm">
+          <div class="form-group">
+            <label for="userInput">Enter a number!</label>
+            <input type="text" id="userInput">
+          </div>
+          <button type="submit" class="btn btn-primary">Ping Pong!</button>
+        </form>
+      </div>
+      <div class="results">
+        <ul id="numberOutput">
+        </ul>
+      </div>
+    </div>
 
   </body>
+
 </html>

@@ -2,9 +2,10 @@
 
 ##### By: Matt Botz
 
-This will be a page were a user inputs a number and the browser will count up to that number and insert ping, pong, and pingpong along the way.
+This is a page where a user inputs any number and the browser will count up to that number and insert ping, pong, and pingpong along the way.
 
 ## Specifications:
+
 ### It can count up to the provided number
 ..* Example Input: 2
 ..* Example Output: [1, 2]
